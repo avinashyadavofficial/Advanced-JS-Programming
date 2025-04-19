@@ -1,0 +1,61 @@
+🟢 Easy Level
+Valid Parentheses
+Given a string containing only ()[]{}, determine if the input string is valid.
+
+Input: "({[]})"
+
+Output: true
+
+Concepts: Stack, matching brackets
+
+Implement a Stack Using Queues
+Implement the push, pop, top, and empty operations using only standard queue operations.
+
+Min Stack
+Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+
+Reverse a Stack (Recursive)
+Given a stack, reverse it using recursion. No extra stack allowed.
+
+Input: [1, 2, 3, 4]
+
+Output: [4, 3, 2, 1]
+
+Remove All Adjacent Duplicates In String
+Given a string, remove all adjacent duplicates using a stack.
+
+Input: "abbaca"
+
+Output: "ca"
+
+🟡 Medium Level
+Next Greater Element
+Given an array, for each element, find the next greater element to its right using a stack.
+
+Input: [2, 1, 2, 4, 3]
+
+Output: [4, 2, 4, -1, -1]
+
+Largest Rectangle in Histogram
+Given an array of heights representing histogram bars, find the area of the largest rectangle.
+
+Input: [2,1,5,6,2,3]
+
+Output: 10
+
+Evaluate Reverse Polish Notation (Postfix Expression)
+Evaluate the value of an arithmetic expression in Reverse Polish Notation.
+
+Input: ["2", "1", "+", "3", "*"]
+
+Output: 9
+
+Daily Temperatures
+Given a list of daily temperatures, return a list that tells you how many days to wait for a warmer day.
+
+Input: [73,74,75,71,69,72,76,73]
+
+Output: [1,1,4,2,1,1,0,0]
+
+Decode String
+Given an encoded string like "3[a]2[bc]", return its decoded version "aaabcbc" using a stack.
