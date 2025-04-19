@@ -5,10 +5,16 @@ class Node{
     }
 }
 function print(node){
+    let ans="";
     while(node!=null){
-        console.log(node.data);
+        ans+=node.data;
+        if(node.next!=null){
+            ans+=" -> ";
+        }
+        // console.log(node.data);
         node=node.next;
     }
+    console.log(ans);
 }
 let head=new Node(3);
 head.next=new Node(6);
