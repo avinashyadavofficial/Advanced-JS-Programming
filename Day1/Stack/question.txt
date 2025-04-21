@@ -59,3 +59,7 @@ Output: [1,1,4,2,1,1,0,0]
 
 Decode String
 Given an encoded string like "3[a]2[bc]", return its decoded version "aaabcbc" using a stack.
+
+
+Here are 10 coding questions to practice stack concepts, ranging from basic to advanced:
+
