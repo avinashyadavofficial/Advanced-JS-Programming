@@ -20,14 +20,19 @@ function deleteAtEnd(head){
         return null;
     }
     let temp=head;
-    let prev=temp;
-    while(temp.next!=null){
-        prev=temp;
+    // let prev=temp;
+    // while(temp.next!=null){
+    //     prev=temp;
+    //     temp=temp.next;
+    // }
+    // let delNode=temp.data;
+    // prev.next=null;
+    while(temp.next.next!=null){
         temp=temp.next;
     }
-    let delNode=temp.data;
-    prev.next=null;
-    console.log(delNode);
+    let delNode=temp.next;
+    console.log(delNode.data);
+    temp.next=null
     return head;
 }
 let head=new Node(10);
