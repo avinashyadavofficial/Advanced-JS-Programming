@@ -49,4 +49,4 @@ g.addEdge('A', 'C');
 g.addEdge('B', 'D');
 g.addEdge('C', 'E');
 
-g.dfsStack('A'); // Output: A C E B D 
+g.dfsStack('A'); // Output: A B D C E
