@@ -43,4 +43,4 @@ g.addEdge('B', 'D');
 g.addEdge('C', 'E');
 // const visited = new Array(g.length).fill(false);
 const visited={};
-g.dfs('A',visited); //  A B C D E
+g.dfs('A',visited); //  A B D C E
