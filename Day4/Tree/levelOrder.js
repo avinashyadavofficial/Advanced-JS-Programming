@@ -16,7 +16,7 @@ function levelorder(root){
        if(node.left!=null){
           queue.push(node.left);
        }
-       if(node.left!=null){
+       if(node.right!=null){
         queue.push(node.right);
        }
     }
