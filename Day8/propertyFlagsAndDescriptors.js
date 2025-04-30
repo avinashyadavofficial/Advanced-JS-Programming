@@ -42,3 +42,14 @@ let obj = {};
 Object.defineProperty(obj, "age", { value: 42 });
 console.log(Object.getOwnPropertyDescriptor(obj, "age"));
 //{ value: 42, writable: false, enumerable: false, configurable: false }
+
+//example
+let obj1={};
+Object.defineProperty(obj1,"name",{
+    value:"Avi",
+    writable:false,
+    enumerable:false,
+    configurable:true
+});
+obj1.name="Gaurav";
+console.log(obj1.name);//Avi
