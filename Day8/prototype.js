@@ -36,6 +36,10 @@ Person.prototype.hello=function(){
 };
 const user=new Person("Avinash");
 user.hello();
+console.log(user.constructor===Person);//true
+console.log(Person.prototype.constructor===Person);//true
+console.log(Person.prototype===user);//false
+console.log(Person.prototype.constructor===user.constructor);//true
 
 //Object.create() --> To make an object with a given prototype:
 let dog=Object.create(animal);
